@@ -14,7 +14,6 @@ The microarchitecture follows the classic textbook decomposition:
 2. **Combinational logic** — ALU, Sign Extender, multiplexers, PC adder.
 3. **Control Unit** — a two-level decoder (Main Decoder + ALU Decoder) that derives all control signals from `opcode`, `funct3`, and `funct7`.
 
-A companion design document, *RISC-V Single Cycle Microarchitecture* (MERL-DSU), walks through the ALU, control unit, and step-by-step datapath construction for `lw`, `sw`, and R-type instructions.
 
 ---
 
